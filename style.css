@@ -1,0 +1,59 @@
+.lift {
+  -webkit-transition: box-shadow 0.25s ease, -webkit-transform 0.25s ease;
+  transition: box-shadow 0.25s ease, -webkit-transform 0.25s ease;
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+  transition: box-shadow 0.25s ease, transform 0.25s ease,
+    -webkit-transform 0.25s ease;
+}
+
+.lift:hover,
+.lift:focus {
+  box-shadow: 0 1rem 2.5rem rgba(22, 28, 45, 0.1),
+    0 0.5rem 1rem -0.75rem rgba(22, 28, 45, 0.1) !important;
+  -webkit-transform: translate3d(0, -3px, 0);
+  transform: translate3d(0, -3px, 0);
+}
+
+.col1 {
+  color: #b47730;
+}
+
+.col2 {
+  color: #c8be57;
+}
+
+.col3 {
+  color: #688457;
+}
+
+.col4 {
+  color: #5191ab;
+}
+
+.col5 {
+  color: #add6ff;
+}
+
+.col6 {
+  color: #07a;
+}
+
+.col7 {
+  color: #dd4a68;
+}
+
+.col8 {
+  color: #690;
+}
+
+.col9 {
+  color: #999;
+}
+
+.navbar {
+  transition: top 0.5s ease;
+}
+
+.navbar-hide {
+  top: -56px;
+}
